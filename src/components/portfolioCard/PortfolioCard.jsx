@@ -63,8 +63,7 @@ function PortfolioCard({
             <p>{about}</p>
             <p>{challenges}</p>
             <p>
-              A full Journal of creating the app can be viewed at the link
-              below:
+            A journal documenting the creation process for the application can be viewed at the link below:
             </p>
             <a className="view-button notion-button" href={notionLink}>
               View Journal

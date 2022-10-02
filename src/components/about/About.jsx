@@ -3,7 +3,7 @@ import "./about.scss";
 
 function About() {
   const viewCV = () => {
-    window.open("SD CV.pdf", "_blank", "fullscreen=yes");
+    window.open("SD_CV.pdf", "_blank", "fullscreen=yes");
   };
 
   return (
@@ -17,10 +17,9 @@ function About() {
         <div className="wrapper">
           <h1>About Me</h1>
           <p>
-            I'm a Software Developer based in Sheffield UK currently looking for
-            job opportunties. Outside of work you can typically find me taking
-            photos 📷 , hiking 🥾 , or playing chess♟. Please take a look at my
-            portfolio below.
+          I'm a Software Developer from Sheffield UK currently looking for
+          job opportunities. Outside of work you can typically find me taking
+          photos 📷 , hiking 🥾 , or playing chess♟. Please take a look at my portfolio below.
           </p>
           <div className="cv-button">
             <button onClick={viewCV} class="view-button cv-button">

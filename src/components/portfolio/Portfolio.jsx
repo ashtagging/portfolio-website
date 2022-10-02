@@ -21,6 +21,10 @@ export default function Portfolio() {
       title: "Productive",
     },
     {
+      id: "readBay",
+      title: "ReadBay",
+    },
+    {
       id: "weatherApp",
       title: "Weather App",
     },
@@ -31,10 +35,6 @@ export default function Portfolio() {
     {
       id: "feedbackRating",
       title: "Feedback Rating",
-    },
-    {
-      id: "readBay",
-      title: "ReadBay",
     },
   ];
 
